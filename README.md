@@ -4,17 +4,17 @@ Sentiment analysis is a natural language processing (NLP) task that involves det
 In this project, I performed sentiment analysis on the Amazon Fine Food Reviews dataset. <br>
 The dataset was obtained from Kaggle and contains a large number of reviews for various food products available on Amazon. <br>
 
-#Dataset
+# Dataset
 The dataset used in this project is the "Amazon Fine Food Reviews" dataset, which can be found on Kaggle at the following link: https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews. <br>
 The dataset contains various attributes such as Id,	ProductId	,UserId	,ProfileName, HelpfulnessNumerator,	HelpfulnessDenominator,	Score	Time. <br>
-#Data Preprocessing <br>
+# Data Preprocessing <br>
 Before performing sentiment analysis, it's essential to preprocess the data to remove noise and irrelevant information. The preprocessing steps include: <br>
 Handling the missing values in dataset. <br>
 Removing HTML tags: Some reviews may contain HTML tags that are not relevant to sentiment analysis and need to be stripped. <br>
 Removing special characters and punctuation: Non-alphanumeric characters are removed to clean the text and avoid unnecessary complications during analysis. <br>
 Tokenization: The reviews are tokenized into individual words or phrases to facilitate further analysis. (This step was later done with hepl of Vader model). <br>
 
-#Exploratory Data Analysis (EDA)
+# Exploratory Data Analysis (EDA)
 EDA involves examining the dataset's structure and performing basic statistical analysis to gain insights into the data. <br>
 Here I analyzed the distribution of ratings and visualize trends in reviews over time. <br>
 Additionally, I explored nature of dataset using bar-graph , and found out majority of reviews are 5 star ie. positive. <br>
