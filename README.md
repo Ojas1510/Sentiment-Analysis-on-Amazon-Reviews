@@ -1,5 +1,5 @@
 # Sentiment Analysis on Amazon Fine Food Reviews
-#Introduction
+# Introduction
 Sentiment analysis is a natural language processing (NLP) task that involves determining the sentiment or emotional tone expressed in a given piece of text. <br>
 In this project, I performed sentiment analysis on the Amazon Fine Food Reviews dataset. <br>
 The dataset was obtained from Kaggle and contains a large number of reviews for various food products available on Amazon. <br>
@@ -61,6 +61,12 @@ This project, explored sentiment analysis on the Amazon Fine Food Reviews datase
 Sentiment analysis is a crucial NLP task with widespread applications in understanding customer feedback, brand perception, and market trends. The combination of rule-based approaches like VADER and state-of-the-art transformer models like Roberta can provide a comprehensive understanding of the sentiments expressed in textual data. <br>
 
 Please refer to the Jupyter Notebook or Python script in this repository for detailed code implementations and visualizations related to this project. <br> 
+
+# Extra 
+In the end transformer piplelines were aloso used for sentiment analysis. <br>
+The pipelines are a great and easy way to use models for inference. These pipelines are objects that abstract most of the complex code from the library, offering a simple API dedicated to several tasks, including Named Entity Recognition, Masked Language Modeling, Sentiment Analysis, Feature Extraction and Question Answering. <br>
+Transfor piplelines automatically uses most suitable model available. <br>
+
 
 # References
 Amazon Fine Food Reviews Dataset <br>
